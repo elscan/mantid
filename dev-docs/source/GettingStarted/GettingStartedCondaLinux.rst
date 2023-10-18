@@ -54,6 +54,17 @@ Setup the mantid conda environment
 * With your restarted terminal.
 * Create the mantid conda environment by navigating to your mantid source code directory in your terminal and running ``conda env create -f mantid-developer-linux.yml``
 
+..
+  Note: if you get the error message:
+  .. code-block:: text
+    ProxyError: Conda cannot proceed due to an error in your proxy configuration.
+    Check for typos and other configuration errors in any '.netrc' file in your home directory,
+    any environment variables ending in '_PROXY', and any other system-wide proxy
+    configuration settings.
+
+  Then see the notes in 
+
+
 Configure CMake and generate build files
 ----------------------------------------
 * Still using the terminal.
