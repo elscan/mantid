@@ -33,8 +33,7 @@ Install `Mambaforge <https://github.com/conda-forge/miniforge/releases>`_
     http: http://proxy.ill.fr:8888
     https: http://proxy.ill.fr:8888
 
-.. collapse:: test
-  this should be a comment
+``test monospaced`` *test italics* **test boldface**
 
 Setup the mantid conda environment
 ----------------------------------
