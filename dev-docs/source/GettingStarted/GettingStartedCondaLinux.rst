@@ -42,6 +42,13 @@ Install `Mambaforge <https://github.com/conda-forge/miniforge/releases>`_
       http: proxy.ill.fr:8888
       https: proxy.ill.fr:8888
 
+..
+  Note: you may want to omit the "https" entry.
+  So, [if you also omit the "http://" in the "http" entry] you would instead add the following to ~/.condarc :
+  .. code-block:: text
+    proxy_servers:
+      http: proxy.ill.fr:8888
+
 Setup the mantid conda environment
 ----------------------------------
 * With your restarted terminal.
