@@ -33,7 +33,14 @@ Install `Mambaforge <https://github.com/conda-forge/miniforge/releases>`_
     http: http://proxy.ill.fr:8888
     https: http://proxy.ill.fr:8888
 
-``test monospaced`` *test italics* **test boldface**
+..
+  Note: you may want to omit the "http://" in both entries.
+  So you would instead add the following lines to ~/.condarc :
+
+  .. code-block:: text
+    proxy_servers:
+      http: proxy.ill.fr:8888
+      https: proxy.ill.fr:8888
 
 Setup the mantid conda environment
 ----------------------------------
