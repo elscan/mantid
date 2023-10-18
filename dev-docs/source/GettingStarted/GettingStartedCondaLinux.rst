@@ -62,7 +62,7 @@ Setup the mantid conda environment
     any environment variables ending in '_PROXY', and any other system-wide proxy
     configuration settings.
 
-  Then see the notes in 
+  Then see the notes in **Setup the mantid conda environment** about removing the "https" entry and also removing the "http://" from the "http" entry
 
 
 Configure CMake and generate build files
