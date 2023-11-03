@@ -49,6 +49,15 @@ Install `Mambaforge <https://github.com/conda-forge/miniforge/releases>`_
     proxy_servers:
       http: proxy.ill.fr:8888
 
+..
+  This worked for me after I received an error:
+
+  ProxyError: Conda cannot proceed due to an error in your proxy configuration.
+  Check for typos and other configuration errors in any '.netrc' file in your home directory,
+  any environment variables ending in '_PROXY', and any other system-wide proxy
+  configuration settings.
+
+
 Setup the mantid conda environment
 ----------------------------------
 * With your restarted terminal.
